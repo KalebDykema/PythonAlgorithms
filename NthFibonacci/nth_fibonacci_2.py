@@ -1,4 +1,4 @@
-def getNthFib(n, memoize={1: 0, 2: 1}):
+def getNthFib(n, memoize={ 1: 0, 2: 1 }):
    if n in memoize:
       return memoize[n]
 

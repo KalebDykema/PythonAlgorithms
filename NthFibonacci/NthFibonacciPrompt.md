@@ -1,4 +1,5 @@
 # Nth Fibonacci Prompt
+To test your code, run `python3 ./NthFibonacci/nth_fibonacci_test.py`.
 
 ## What is the fibonacci seuqence?
 The fibonaci sequence is a continuing sum of the two preceding numbers, starting with 0 and 1. This would continue as 0, 1, 1, 2, 3, 5, 8, etc.
@@ -18,4 +19,5 @@ Ouput
 ```
 
 ## Assumptions
-The input will always be an integer.
+- The input will always be an integer.
+- Don't worry about input less than 1.

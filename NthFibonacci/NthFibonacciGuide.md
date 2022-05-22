@@ -82,7 +82,7 @@ O(6-1) = 5 items max on the stack at a time
 O(n) time | O(1) space
 
 ### Full Complexity
-O(n-1) time | O(3) space
+O(n-1) time | O(1) space
 
 ### Time Complexity
 O(6-1) = 5 items looped through
@@ -93,6 +93,6 @@ O(6-1) = 5 items looped through
   1 -> 1 -> 2 -> 3 -> 5
 ```
 
-## Space Complexity Visualizaiton
-O(3) = 3 items stored on stack
-Since we only overwrite the current slots in the area, we only use 3 spots in memory: 2 for the array itself, and 1 for the returned number.
+## Space Complexity
+O(1)
+While there are various items stored on the stack, it is constant no matter how much the input grows or shrinks.

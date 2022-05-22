@@ -1,2 +1,2 @@
-def getNthFib(n):
+def getNthFib():
    pass
